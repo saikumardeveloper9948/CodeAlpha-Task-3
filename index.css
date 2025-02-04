@@ -1,4 +1,4 @@
- /* Global Styles */
+
  body,
  html {
    margin: 0;
@@ -9,7 +9,7 @@
    color: white;
  }
 
- /* Navbar Styles */
+
  .navbar {
    background-color: #021024;
    height: 70px;
@@ -50,7 +50,7 @@
    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 224, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
  }
 
- /* Responsive Navbar */
+ 
  @media (max-width: 768px) {
    .navbar {
      height: auto;
@@ -65,28 +65,28 @@
      margin: 5px 0;
    }
  }
- /* Responsive Navbar for Medium Screens (769px - 990px) */
+ 
 @media (min-width: 769px) and (max-width: 990px) {
     .navbar {
-      height: 60px; /* Reduce height for medium screens */
-      font-size: 18px; /* Adjust font size for better readability */
-      padding: 0 15px; /* Reduce padding for compact layout */
+      height: 60px; 
+      font-size: 18px; 
+      padding: 0 15px; 
     }
   
     .navbar-nav {
-      flex-direction: column; /* Ensure nav items stay in a row */
+      flex-direction: column; 
       width: 15vw;
-      gap: 10px; /* Add spacing between nav items */
+      gap: 10px;
     }
   
     .nav-link {
-      padding: 8px 12px; /* Adjust padding for nav links */
+      padding: 8px 12px; 
     }
   }
 
   
 
- /* Hero Section */
+
  .hero {
    height: 100vh;
    display: flex;
@@ -132,7 +132,7 @@
    box-shadow: 0 5px 25px rgba(0, 224, 255, 0.7);
  }
 
- /* Image Container with Animations */
+
  .image-container {
    position: relative;
    animation: float 3s ease-in-out infinite;
@@ -171,7 +171,7 @@
    position: absolute;
  }
 
- /* Media Query */
+
  @media (max-width: 768px) {
    .hero {
      text-align: center;
@@ -189,7 +189,7 @@
    }
  }
 
- /* About Me Section Styles */
+
  .about-me {
    background-color: #1d1d1d;
    color: white;
@@ -215,7 +215,7 @@
    color: #00e0ff;
  }
 
- /* Circle Image */
+
  .about-image-container {
    position: relative;
  }
@@ -232,14 +232,7 @@
    margin: 0 auto;
  }
 
- /* .profile-img-a {
-   width: 290px;
-   height: 290px;
-   border-radius: 50%;
-   object-fit: cover;
- } */
 
- /* Button */
  .btn-primary {
    background-color: #00e0ff;
    border-color: #00e0ff;
@@ -252,7 +245,7 @@
    box-shadow: 0 5px 25px rgba(0, 224, 255, 0.7);
  }
 
- /* Media Queries */
+
  @media (max-width: 768px) {
    .about-me {
     margin-top: 1px;
@@ -396,7 +389,7 @@
    color: #00e0ff;
  }
 
- /* Media Queries for Responsiveness */
+
  @media (max-width: 768px) {
    .skills-details {
      flex-direction: column;
@@ -413,7 +406,7 @@
    }
  }
 
- /* Project Section Styles */
+
  .project {
    font-size: 1.5rem;
    font-weight: bold;
@@ -441,7 +434,7 @@
    box-shadow: 0 10px 20px rgba(2, 224, 253, 0.4);
  }
 
- /* Customized Card Class Styles */
+
  .card {
    background-color: #1d1d1d;
    border: 2px solid transparent;
@@ -494,7 +487,7 @@
    color: #00c4e0;
  }
 
- /* Button inside the card */
+
  .card .btn-primary {
    background-color: #00e0ff;
    border-color: #00e0ff;
@@ -509,7 +502,7 @@
    box-shadow: 0 5px 15px rgba(0, 224, 255, 0.5);
  }
 
- /* Contact Me Section Styles */
+
  .contactme {
    background-color: #021024;
    color: white;
@@ -573,7 +566,7 @@
    box-shadow: 0 5px 15px rgba(0, 224, 255, 0.5);
  }
 
- /* Image Container with Zoom Animation */
+
  .image-container {
    position: relative;
    animation: float 3s ease-in-out infinite;
@@ -631,7 +624,7 @@
    }
  }
 
- /* Media Query for Responsiveness */
+
  @media (max-width: 768px) {
    .image-circle {
      width: 300px;
