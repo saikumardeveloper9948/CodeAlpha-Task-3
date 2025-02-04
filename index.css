@@ -255,6 +255,7 @@
  /* Media Queries */
  @media (max-width: 768px) {
    .about-me {
+    margin-top: 1px;
      text-align: center;
    }
 
