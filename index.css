@@ -257,7 +257,7 @@
    }
  }
 
- /* My Services Section */
+ 
  .my-services {
    background-color: #1d1d1d;
    color: white;
@@ -299,7 +299,7 @@
    margin-bottom: 30px;
  }
 
- /* Button */
+
  .btn-primary {
    background-color: #00e0ff;
    border-color: #00e0ff;
@@ -312,7 +312,7 @@
    box-shadow: 0 5px 25px rgba(0, 224, 255, 0.7);
  }
 
- /* Skills Section Styles */
+
  .skills {
    background-color: #021024;
    color: white;

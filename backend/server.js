@@ -6,11 +6,7 @@ const userRoutes = require('./routes/userRoutes');
 
 const app = express();
 
-app.use(cors({
-    origin: `http://127.0.0.1:${port}`,  
-    methods: ['GET', 'POST', 'PUT', 'DELETE'],
-    allowedHeaders: ['Content-Type']
-  }));
+app.use(cors())
 
 app.use(express.json());
 
